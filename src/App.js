@@ -1,6 +1,8 @@
+import Abhay from './abhay/Abhay';
 import './App.css';
 import Home from './components/Home/Home';
 import State from './components/state/State';
+import ReactMemo from './reactMemo/ReactMemo';
 
 function App() {
   return (
@@ -14,8 +16,13 @@ function App() {
         <Home name="Abhishek"/> */}
 
         {/* STATE MANAGEMENT */}
-        <State />
+        {/* <State /> */}
 
+        {/* EXPORT ABHAY COMPONENT */}
+        {/* <Abhay /> */}
+
+        {/* REACT MEMO */}
+        <ReactMemo />
       </div>
       {/* <Footer /> */}
     </>

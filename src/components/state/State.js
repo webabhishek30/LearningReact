@@ -24,7 +24,6 @@ const State = () => {
     // STEP 5 : CONTEXT API VALUE FETCHED
     const {name, setName} = useNameHook();
 
-
     return <>
         
         <h2>{name} - Parent</h2>
