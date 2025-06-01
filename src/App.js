@@ -3,6 +3,8 @@ import './App.css';
 import Home from './components/Home/Home';
 import State from './components/state/State';
 import ReactMemo from './reactMemo/ReactMemo';
+import Reducer from './reducer/Reducer';
+import Ref from './ref/Ref';
 
 function App() {
   return (
@@ -16,13 +18,20 @@ function App() {
         <Home name="Abhishek"/> */}
 
         {/* STATE MANAGEMENT */}
-        {/* <State /> */}
+        {/* <State />
+        <Home /> */}
 
         {/* EXPORT ABHAY COMPONENT */}
         {/* <Abhay /> */}
 
         {/* REACT MEMO */}
-        <ReactMemo />
+        {/* <ReactMemo /> */}
+
+        {/* REACT USEREF */}
+        {/* <Ref/> */}
+
+        {/* REACT REDUCER */}
+        <Reducer />
       </div>
       {/* <Footer /> */}
     </>

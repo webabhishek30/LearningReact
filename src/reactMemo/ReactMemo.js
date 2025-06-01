@@ -4,7 +4,7 @@ import ReactMemoChild from "./ReactMemoChild";
 const ReactMemo = () => {
     // NAME STATE
     const [name, setName] = useState("Abhay");
-
+    
     console.log("React Memo - Rendered.")
 
     return<>

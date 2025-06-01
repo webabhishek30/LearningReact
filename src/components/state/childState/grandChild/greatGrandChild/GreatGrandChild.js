@@ -5,9 +5,12 @@ import { useNameHook } from "../../../../../context/context";
 // }
 
 const GreatGrandChild = () => {
-    const {name} = useNameHook();
+    const {name, setAddress} = useNameHook();
     
-    return <h6>{name} - GREAT GRAND CHILD - Without prop drilling</h6>
+    return <>
+        <h6>{name} - GREAT GRAND CHILD - Without prop drilling</h6>
+        <button onClick={() => setAddress("Noida")}>Set Address</button>
+    </>
 }
 
 export default GreatGrandChild;

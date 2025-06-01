@@ -6,7 +6,8 @@ const NameContext = createContext();
 // STEP 2 : PROVIDER
 export const NameProvider = ({children}) => {
     const [name, setName] = useState("Devki");
-    return <NameContext value={{name, setName}}>{children}</NameContext>
+    const [address, setAddress] = useState("");
+    return <NameContext value={{name, setName, address, setAddress}}>{children}</NameContext>
 }
 
 // STEP 3 : CUSTOM HOOK
