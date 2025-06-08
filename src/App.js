@@ -1,7 +1,9 @@
 import Abhay from './abhay/Abhay';
+import ApiIntegration from './apiIntegration/ApiIntegration';
 import './App.css';
 import Home from './components/Home/Home';
 import State from './components/state/State';
+import Controlled from './controlled/Controlled';
 import ReactMemo from './reactMemo/ReactMemo';
 import Reducer from './reducer/Reducer';
 import Ref from './ref/Ref';
@@ -31,7 +33,13 @@ function App() {
         {/* <Ref/> */}
 
         {/* REACT REDUCER */}
-        <Reducer />
+        {/* <Reducer /> */}
+
+        {/* REACT CONTROLLED INPUT */}
+        {/* <Controlled /> */}
+
+        {/* REACT API INTEGRATION */}
+        <ApiIntegration />
       </div>
       {/* <Footer /> */}
     </>
